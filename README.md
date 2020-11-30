@@ -135,7 +135,7 @@ try:
     
 except NameError:
 
-  print("The Exception is handled")
+    print("The Exception is handled")
 
 Excercise_4:When try-except scenario is not required
 
@@ -151,14 +151,14 @@ while True:
 
   try:
 
-    num=int(input("Enter the integer"))
+        num=int(input("Enter the integer"))
 
-    print("The integer you have entered is",num)
+        print("The integer you have entered is",num)
 
-    break
+        break
 
   except:
 
-    print("Invalid integer")
+        print("Invalid integer")
 
 print("You have entered an integer")
